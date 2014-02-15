@@ -10,9 +10,9 @@ Inspired by Harvard Universiy's CS109 Data Science (http://bit.ly/1agO1GB).
 from numpy import array, mean, random
 
 # Declarations
-n_doors = 3 # Number of doors
-switch = 1 # Switch doors after goat reveal? 0 = No, 1 = Yes
-n_sim = 100 # Number of simulations
+n_doors = 3   # Number of doors
+switch  = 1   # Switch doors after goat reveal? 0 = No, 1 = Yes
+n_sim   = 100 # Number of simulations
 
 # Create array of doors
 doors = range(n_doors)
