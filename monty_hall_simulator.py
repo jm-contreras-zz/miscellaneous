@@ -26,9 +26,11 @@ guesses = random.choice(doors, n_sim)
 # Open goat doors    
 goat_doors = [None] * n_sim
 for i in range(n_sim):
+    # Determine which doors can host the goats (no prize, not guessed)
     can_host_goat = list(set(doors) - set([prize_doors[i], guesses[i]]))
     if len(can_host_goat) == 1:
         goat_doors[i] = can_host_goat[0]
+    # If the guessed door has the prize, choose which goat door to open
     else:
         goat_doors[i] = random.choice(can_host_goat, 1)[0]
 goat_doors = array(goat_doors)
