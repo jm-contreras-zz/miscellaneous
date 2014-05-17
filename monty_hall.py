@@ -5,7 +5,7 @@ Monty Hall problem (http://en.wikipedia.org/wiki/Monty_Hall_problem) simulator.
 Inspired by Harvard University's CS109 Data Science (http://bit.ly/1agO1GB).
 @author: Juan Manuel Contreras (juan.manuel.contreras.87@gmailcom)
 
-The user must specify three variables.
+The user must specify 4 variables.
 n_doors  = the number of doors in the game
 n_open   = the number of doors opened by the host
 switch   = should the door be switched after the goat reveal? 0 = no, 1 = yes
