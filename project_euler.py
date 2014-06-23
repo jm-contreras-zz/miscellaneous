@@ -352,6 +352,19 @@ print len(''.join(nums))
 
 
 
+# 19. How many Sundays fell on the first of the month during the 20th century?
+from datetime import date, timedelta
+date_list = [date(1901, 1, 1)]
+while date_list[-1] != date(2000, 12, 31):
+    date_list.append(date_list[-1] + timedelta(days=1))
+sun_1st_sum = 0
+for d in date_list:
+    if d.weekday() == 6 and d.day == 1:
+        sun_1st_sum += 1
+print sun_1st_sum
+
+
+
 # 20. Find the sum of the digits in the number 100!
 from math import factorial
 print sum_digits(factorial(100))
