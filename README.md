@@ -14,5 +14,3 @@ miscellaneous
 - **num2log.R** contains a function that takes as input a data frame with numeric or mixed variables. It identifies the variables that can be converted to logical type (i.e., only values 0, 1, and NA) and converts them accordingly.
 
 - **password_checker.py** receives command-line input as a comma-delimited list of passwords and checks if each is valid according to specific criteria. For each password, it prints a message indicating that it is valid or, alternatively, the reason why it is invalid.
-
-- **project_euler.py** contains solutions to 20 problems from [Project Euler](http://projecteuler.net/), a website dedicated to computational problems that involve logic and mathematics.
