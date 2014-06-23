@@ -15,4 +15,4 @@ miscellaneous
 
 - **password_checker.py** receives command-line input as a comma-delimited list of passwords and checks if each is valid according to specific criteria. For each password, it prints a message indicating that it is valid or, alternatively, the reason why it is invalid.
 
-- **project_euler.py**
+- **project_euler.py** contains solutions for 20 problems from [Project Euler](http://projecteuler.net/).
