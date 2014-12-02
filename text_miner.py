@@ -10,9 +10,9 @@ def text_miner(text, miner):
     return df.astype('int32')
 
 # Create text series and miner dictionary
-text = pd.Series(['I ran to Iran', 'You attack Iraq', 'England is bland', 'We dance in France', 'They wait in Kuwait'])
+text = pd.Series(['I ran to Iran', 'You back Iraq', 'England is bland', 'We dance in France', 'They wait in Kuwait'])
 miner = {'middle_east': ['Iran', 'Iraq', 'Kuwait'],
-         'verb': ['ran', 'attack', 'dance', 'wait']}
+         'verb': ['ran', 'back', 'dance', 'wait']}
 
 # Apply text miner
 mined_text_df = text_miner(text, miner)
