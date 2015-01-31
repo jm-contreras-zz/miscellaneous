@@ -42,7 +42,7 @@ def main(query, count):
         for t in result['statuses']:
             if fav(t) is not None:
                 success += 1
-        print "Favorited total: %i of %i" % (success, len(result['statuses']))
+        print "Favorited: %i of %i" % (success, len(result['statuses']))
     
     # Run the program
     search_and_fav(query, count)
