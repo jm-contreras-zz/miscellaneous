@@ -24,13 +24,11 @@ Password 2We3345 does not include a required symbol [$, #, @].
 @author: juan.manuel.contreras.87@gmail.com
 """
 
-# Import module
+# Import modules
 from sys import argv
+from re import search
 
 def main(passwords):
-    
-    # Import module
-    from re import search
     
     # Declare an empty text key
     text = None
