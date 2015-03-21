@@ -29,4 +29,6 @@ def main(then):
 
 if __name__ == '__main__':
     
-    main(str(raw_input('When will you see your sweetheart next? ')))
+    print 'When will you see your sweetheart next?'
+    print 'Input your answer in this format: Apr 2 2015 11:59PM'
+    main(str(raw_input()))
